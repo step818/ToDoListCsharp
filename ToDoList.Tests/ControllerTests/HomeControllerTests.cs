@@ -20,6 +20,7 @@ namespace ToDoList.Tests
 
           //Assert
           Assert.IsInstanceOfType(indexView, typeof(ViewResult));
+
       }
     }
 }

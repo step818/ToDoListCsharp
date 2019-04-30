@@ -11859,7 +11859,7 @@
       ]
     },
     "System.Runtime.Serialization.Json/4.0.2": {
-      "sha512": "/id+d8iVzgQxdGGJfaRw9q11/a+86TVe6frUqU/qEEb6j94/nWY3LzuHgWEDRvDL+Bn7kD6lt6NLpAeW8G89wg==",
+      "sha512": "+7DIJhnKYgCzUgcLbVTtRQb2l1M0FP549XFlFkQM5lmNiUBl44AfNbx4bz61xA8PzLtlYwfmif4JJJW7MPPnjg==",
       "type": "package",
       "path": "system.runtime.serialization.json/4.0.2",
       "files": [
@@ -13605,11 +13605,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/csharp-to-do-list-example/ToDoList.Tests/ToDoList.Tests.csproj",
+      "projectUniqueName": "/Users/Guest/Desktop/ToDoList2/ToDoList.Tests/ToDoList.Tests.csproj",
       "projectName": "ToDoList.Tests",
-      "projectPath": "/Users/Guest/Desktop/csharp-to-do-list-example/ToDoList.Tests/ToDoList.Tests.csproj",
+      "projectPath": "/Users/Guest/Desktop/ToDoList2/ToDoList.Tests/ToDoList.Tests.csproj",
       "packagesPath": "/Users/Guest/.nuget/packages/",
-      "outputPath": "/Users/Guest/Desktop/csharp-to-do-list-example/ToDoList.Tests/obj/",
+      "outputPath": "/Users/Guest/Desktop/ToDoList2/ToDoList.Tests/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -13626,8 +13626,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "/Users/Guest/Desktop/csharp-to-do-list-example/ToDoList/ToDoList.csproj": {
-              "projectPath": "/Users/Guest/Desktop/csharp-to-do-list-example/ToDoList/ToDoList.csproj"
+            "/Users/Guest/Desktop/ToDoList2/ToDoList/ToDoList.csproj": {
+              "projectPath": "/Users/Guest/Desktop/ToDoList2/ToDoList/ToDoList.csproj"
             }
           }
         }
