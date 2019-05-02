@@ -13605,11 +13605,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\School\\ToDoList2.1\\ToDoList2\\ToDoList.Tests\\ToDoList.Tests.csproj",
+      "projectUniqueName": "D:\\School\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj",
       "projectName": "ToDoList.Tests",
-      "projectPath": "D:\\School\\ToDoList2.1\\ToDoList2\\ToDoList.Tests\\ToDoList.Tests.csproj",
+      "projectPath": "D:\\School\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj",
       "packagesPath": "C:\\Users\\Kyle\\.nuget\\packages\\",
-      "outputPath": "D:\\School\\ToDoList2.1\\ToDoList2\\ToDoList.Tests\\obj\\",
+      "outputPath": "D:\\School\\ToDoList.Solution\\ToDoList.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13626,8 +13626,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\School\\ToDoList2.1\\ToDoList2\\ToDoList\\ToDoList.csproj": {
-              "projectPath": "D:\\School\\ToDoList2.1\\ToDoList2\\ToDoList\\ToDoList.csproj"
+            "D:\\School\\ToDoList.Solution\\ToDoList\\ToDoList.csproj": {
+              "projectPath": "D:\\School\\ToDoList.Solution\\ToDoList\\ToDoList.csproj"
             }
           }
         }
