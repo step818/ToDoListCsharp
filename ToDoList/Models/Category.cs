@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using MySql.Data.MySqlClient;
+using System;
+
 namespace ToDoList.Models
 {
   public class Category
@@ -156,8 +158,9 @@ namespace ToDoList.Models
       {
         int itemId = rdr.GetInt32(0);
         string itemDescription = rdr.GetString(1);
-        int itemCategoryId = rdr.GetInt32(2);
-        Item newItem = new Item(itemDescription, itemCategoryId, itemId);
+        DateTime itemDueDate = rdr.GetDateTime(2);
+        int itemCategoryId = rdr.GetInt32(3);
+        Item newItem = new Item(itemDescription, itemDueDate, itemCategoryId, itemId);
         allCategoryItems.Add(newItem);
       }
       conn.Close();

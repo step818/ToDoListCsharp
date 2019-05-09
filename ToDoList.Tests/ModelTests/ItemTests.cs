@@ -180,8 +180,9 @@ namespace ToDoList.Tests
     // public void GetCategoryId_ReturnsItemsParentCategoryId_Int()
     // {
     //   //Arrange
-    //   Category newCategory = new Category("Home Tasks", 1);
-    //   Item newItem = new Item("Walk the dog.", newCategory.GetId());
+    //   DateTime itemDueDate =  new DateTime(1999, 12, 24);
+    //   Category newCategory = new Category("Home Tasks");
+    //   Item newItem = new Item("Walk the dog.", itemDueDate, newCategory.GetId());
     //
     //   //Act
     //   int result = newItem.GetCategoryId();
@@ -190,5 +191,22 @@ namespace ToDoList.Tests
     //   Assert.AreEqual(newCategory.GetId(), result);
     // }
 
+    // [TestMethod]
+    //   public void Delete_DeletesItemFromDatabase_List()
+    //   {
+    //     //Arrange
+    //     DateTime itemDueDate =  new DateTime(1999, 12, 24);
+    //     Category newCategory = new Category("Home Tasks");
+    //     Item newItem1 = new Item("Walk the dog.", itemDueDate, 0, newCategory.GetId());
+    //     Item newItem2 = new Item("Clean the room", itemDueDate, 0, newCategory.GetId());
+    //     newItem1.Save();
+    //     newItem2.Save();
+    //     //Act
+    //     newItem1.Delete();
+    //     List<Item> result = Item.GetAll();
+    //     List<Item> newList = new List<Item> { newItem2 };
+    //     //Assert
+    //     CollectionAssert.AreEqual(newList, result);
+    //   }
   }
 }
