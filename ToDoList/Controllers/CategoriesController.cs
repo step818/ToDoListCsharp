@@ -56,5 +56,18 @@ namespace ToDoList.Controllers
       return View("Show", model);
     }
 
+    [ActionName("Destroy"), HttpPost("/categories/{id}/delete")]
+    public ActionResult Destroy(int id)
+    {
+    Category deleteCategory = Category.Find(id);
+    List<Item> deleteItems = deleteCategory.GetItems();
+    foreach(Item item in deleteItems)
+    {
+        item.Delete();
+    }
+    deleteCategory.Delete();
+    return RedirectToAction("Index");
+    }
+
   }
 }

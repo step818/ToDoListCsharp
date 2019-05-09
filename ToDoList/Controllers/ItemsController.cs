@@ -42,7 +42,7 @@ namespace ToDoList.Controllers
         List<Item> categoryItems = foundCategory.GetItems();
         model.Add("items", categoryItems);
         model.Add("category", foundCategory);
-        return View(model);
+        return RedirectToAction("Index");
     }
 
     [HttpGet("/categories/{categoryId}/items/{itemId}/edit")]
