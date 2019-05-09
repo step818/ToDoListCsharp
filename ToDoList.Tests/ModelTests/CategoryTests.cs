@@ -15,7 +15,7 @@ namespace ToDoList.Tests
     }
 
     [TestMethod]
-    public void CategoryConstructor_CreatesInstancesOfCategory_Category()
+    public void CategoryConstructor_CreatesInstanceOfCategory_Category()
     {
       Category newCategory = new Category("test category");
       Assert.AreEqual(typeof(Category), newCategory.GetType());
@@ -102,7 +102,7 @@ namespace ToDoList.Tests
     {
       //Arrange
       string description = "Walk the dog.";
-      Item newItem = new Item(description);
+      Item newItem = new Item(description, 1);
       List<Item> newList = new List<Item> { newItem };
       string name = "Work";
       Category newCategory = new Category(name);
@@ -114,5 +114,6 @@ namespace ToDoList.Tests
       //Assert
       CollectionAssert.AreEqual(newList, result);
     }
+
   }
 }
